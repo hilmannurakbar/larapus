@@ -7,7 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Register</div>
                 <div class="panel-body">
-                    {!! Form::open(['url'=>'/register','class'=>'form-horizontal']) !!}
+                    {!! Form::open(['url'=>'/home','class'=>'form-horizontal']) !!}
 
                     <div class="form-group{{$errors->has('name') ? ' has-error' : '' }}">
                     {!! Form::label('name','Nama', ['class'=>'col-md-4 control-label']) !!}

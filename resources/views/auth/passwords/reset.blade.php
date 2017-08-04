@@ -16,7 +16,7 @@
 
                     {!! Form::open(['url'=>'/password/reset','class'=>'form-horizontal']) !!}
 
-                    <input type="hidden" name="token" value="{{ $token }}">
+                    <input type="hidden" name="token" value="{{ token }}">
 
                     <div class="form-group{{$errors->has('email') ? ' has-error' : '' }}">
                         {!! Form::label('email','Alamat Email', ['class'=>'col-md-4 control-label']) !!}
